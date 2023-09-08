@@ -12,6 +12,11 @@ hamB.addEventListener("click", () => {
     navTwo.classList.toggle("show")
 })
 
+var button = document.getElementById("back-to-top");
+button.addEventListener("click", function() {
+  window.scrollTo(0, 0);
+});
+
 // btnArea.addEventListener("click", () => {
 //     btnArea.classList.toggle("move");
 //     btnArea.classList.toggle("change")
